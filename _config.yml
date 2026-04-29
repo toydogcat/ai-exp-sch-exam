@@ -5,7 +5,7 @@ description: "分享學測、分科測驗的準備心得、試題解析與讀書
 logo: # 120x120 px
 teaser: # 400x250 px
 locale: zh-TW
-url: "https://toydogcat.github.io/ai-exp-sch-exam"
+url: "https://toydogcat.github.io"
 baseurl: "/ai-exp-sch-exam"
 feed:
   path: atom.xml
