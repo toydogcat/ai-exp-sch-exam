@@ -27,6 +27,7 @@ tags: [115學測, 國綜, 參考試卷]
 - **練習多重文本比較**：針對同一議題，嘗試閱讀不同立場或體裁的文章。
 - **掌握圖表資訊**：量詞分類表、韓非子的情境表格等，都是常見的資訊整合題型。
 
-::: tip 模擬測驗
-本站已收錄 115 國綜參考試卷，歡迎前往[模擬測驗系統](https://toydogcat.github.io/ai-sch-exam/exams?path=ceec/115/國綜)進行練習。
-:::
+<div class="notice--tip">
+  <h4>💡 模擬測驗</h4>
+  本站已收錄 115 國綜參考試卷，歡迎前往 <a href="https://toydogcat.github.io/ai-sch-exam/exams?path=ceec/115/國綜">模擬測驗系統</a> 進行練習。
+</div>
