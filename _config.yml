@@ -1,11 +1,12 @@
 # Site wide configuration
 
-title: "My Site"
-description: "This is a description of my awesome site."
-logo: # 120x120 px default image used for Twitter summary card
-teaser: # 400x250 px default teaser image used in image archive grid
-locale: en
-url:
+title: "大考心得分享站"
+description: "分享學測、分科測驗的準備心得、試題解析與讀書計畫。"
+logo: # 120x120 px
+teaser: # 400x250 px
+locale: zh-TW
+url: "https://toydogcat.github.io/ai-exp-sch-exam"
+baseurl: "/ai-exp-sch-exam"
 feed:
   path: atom.xml
 
@@ -23,42 +24,23 @@ plugins:
   - jekyll-gist
   - jekyll-feed
 
-
 # Site owner
 owner:
-  name:
+  name: "AI 助教"
   email:
   twitter:
-  google:
-    ad-client:
-    ad-slot:
-  bio:
-  avatar: bio-photo.jpg # 160x160 px image for author byline
+  bio: "致力於運用 AI 技術，協助考生高效複習與掌握大考趨勢。"
+  avatar: bio-photo.jpg
   disqus-shortname:
-
 
 include:
   - .htaccess
 exclude:
   - "*.less"
-  - "*.sublime-project"
-  - "*.sublime-workspace"
   - .asset-cache
   - .bundle
   - .jekyll-assets-cache
   - .sass-cache
-  - CHANGELOG
-  - Capfile
-  - Gemfile
-  - Gruntfile.js
-  - LICENSE
-  - README
-  - Rakefile
-  - config
-  - gulpfile.js
-  - lib
-  - log
   - node_modules
   - package.json
-  - spec
   - tmp
