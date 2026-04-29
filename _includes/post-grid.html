@@ -1,7 +1,7 @@
 <article class="tile" itemscope itemtype="http://schema.org/Article">
   <div class="post-teaser">
     <a href="{{ post.url | relative_url }}" title="{{ post.title }}">
-      {% if post.image.teaser %}
+      {% if post.image.teaser and post.image.teaser != "" %}
         <img src="{{ '/images/' | append: post.image.teaser | relative_url }}" alt="teaser" itemprop="image">
       {% else %}
         <div class="teaser-fallback" style="width:100%; height:200px; background:linear-gradient(135deg, #2c3e50 0%, #42b983 100%);"></div>

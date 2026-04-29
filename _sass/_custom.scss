@@ -1,123 +1,100 @@
-// Premium Design for AI School Exam Blog
+// Premium Design for AI School Exam Blog - V2
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Noto+Sans+TC:wght@400;500;700&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Noto+Sans+TC:wght@300;400;700&display=swap');
-
-$brand-primary: #42b983;
-$brand-secondary: #2c3e50;
-$glass-bg: rgba(255, 255, 255, 0.8);
-$glass-border: rgba(255, 255, 255, 0.3);
+$brand-primary: #42b983 !important;
+$brand-secondary: #2c3e50 !important;
 
 body {
-  font-family: 'Inter', 'Noto Sans TC', sans-serif;
-  background-color: #f8f9fa;
-  color: #34495e;
-  line-height: 1.7;
+  font-family: 'Inter', 'Noto Sans TC', sans-serif !important;
+  background: #f0f2f5 !important;
+  color: #2c3e50 !important;
 }
 
 #masthead {
-  background: rgba(44, 62, 80, 0.95);
-  backdrop-filter: blur(10px);
-  border-bottom: 3px solid $brand-primary;
-  padding: 1.5rem 0;
+  background: $brand-secondary !important;
+  padding: 1rem 0 !important;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.2) !important;
   
   .site-title {
-    font-weight: 700;
-    letter-spacing: -1px;
     color: #fff !important;
-    text-transform: uppercase;
-    font-size: 1.5rem;
+    font-size: 1.8rem !important;
+    font-weight: 800 !important;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.3);
   }
 }
 
 .inner-wrap {
-  max-width: 1000px;
-  margin: 0 auto;
-  padding: 0 20px;
+  max-width: 1100px !important;
 }
 
-// Tiles / Cards
+// Card Style for Tiles
 .tile {
-  background: #fff;
-  border-radius: 16px;
-  overflow: hidden;
-  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-  border: 1px solid #f0f0f0;
-  margin-bottom: 2rem;
-
+  background: #fff !important;
+  border-radius: 20px !important;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.05) !important;
+  border: none !important;
+  transition: transform 0.3s ease, box-shadow 0.3s ease !important;
+  margin-bottom: 2.5rem !important;
+  
   &:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
-    border-color: $brand-primary;
-  }
-
-  .post-teaser img {
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
-    background: linear-gradient(135deg, $brand-secondary 0%, $brand-primary 100%);
+    transform: translateY(-8px) !important;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.1) !important;
   }
 
   .post-title {
-    padding: 1.5rem 1.5rem 0.5rem;
-    margin: 0;
-    font-size: 1.4rem;
-    a { color: $brand-secondary !important; text-decoration: none !important; }
+    padding: 1.5rem !important;
+    a {
+      color: $brand-secondary !important;
+      font-size: 1.6rem !important;
+      font-weight: 700 !important;
+    }
   }
 
   .post-excerpt {
-    padding: 0 1.5rem 1.5rem;
-    color: #7f8c8d;
-    font-size: 0.95rem;
+    padding: 0 1.5rem 2rem !important;
+    font-size: 1.1rem !important;
+    color: #5d6d7e !important;
   }
-  
+
   .entry-date {
-    padding: 1.5rem 1.5rem 0;
-    margin: 0;
-    font-size: 0.8rem;
-    color: $brand-primary;
-    font-weight: 600;
-    text-transform: uppercase;
+    background: $brand-primary !important;
+    color: #fff !important;
+    display: inline-block !important;
+    padding: 4px 12px !important;
+    border-radius: 50px !important;
+    font-size: 0.8rem !important;
+    margin: 1.5rem 1.5rem 0 !important;
   }
 }
 
-// Post Content
+// Article Page
 .page-content {
-  background: #fff;
-  padding: 3rem;
-  border-radius: 20px;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
-  margin-top: 2rem;
-
-  h1, h2, h3 { color: $brand-secondary; font-weight: 700; }
+  border-radius: 24px !important;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.05) !important;
+  border: 1px solid #eef2f7 !important;
   
-  img {
-    border-radius: 12px;
-    box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1);
+  h1, h2, h3 {
+    border-bottom: 2px solid #f0f3f7 !important;
+    padding-bottom: 0.5rem !important;
+    margin-top: 2rem !important;
   }
 }
 
-// Notices / Tips
-.notice--tip {
-  padding: 1.5rem;
-  background: #eafaf1;
-  border-left: 5px solid $brand-primary;
-  border-radius: 8px;
-  margin: 2rem 0;
-  color: #2c3e50;
-  
-  h4 { margin-top: 0; color: #27ae60; }
-}
-
+// Footer
 #site-footer {
-  background: #f1f3f5;
-  padding: 3rem 0;
-  text-align: center;
-  border-top: 1px solid #e9ecef;
+  background: $brand-secondary !important;
+  color: #bdc3c7 !important;
+  padding: 4rem 0 !important;
   
-  .copyright {
-    color: #adb5bd;
-    font-size: 0.9rem;
-    a { color: $brand-primary; }
+  .copyright a {
+    color: $brand-primary !important;
   }
+}
+
+// Notice Box
+.notice--tip {
+  background: rgba(66, 185, 131, 0.1) !important;
+  border-left: 6px solid $brand-primary !important;
+  padding: 2rem !important;
+  border-radius: 12px !important;
 }
