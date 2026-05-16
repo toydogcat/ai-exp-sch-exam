@@ -109,7 +109,7 @@ body {
 /* Layout Cleanup (Remove Sidebar & Center) */
 #main {
   .inner-wrap {
-    @include span-columns(12 !important);
+    @include span-columns(12);
     max-width: 900px !important;
     float: none !important;
     margin-left: auto !important;
