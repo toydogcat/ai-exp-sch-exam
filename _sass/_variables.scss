@@ -24,21 +24,21 @@ $border-radius               	: 3px;
 $white                        : #fff;
 $black                        : #000;
 
-$body-color                  	: #f8fafc;
+$body-color                  	: #0f172a;
 
-$text-color                  	: #1e293b;
-$caption-color                : #64748b;
+$text-color                  	: #e2e8f0;
+$caption-color                : #94a3b8;
 
-$base-color                  	: #334155;
+$base-color                  	: #1e293b;
 $comp-color                  	: complement($base-color);
-$border-color                	: #e2e8f0;
-$link-color                  	: #4f46e5;
+$border-color                	: rgba(255, 255, 255, 0.1);
+$link-color                  	: #818cf8;
 
 $primary-color               	: #6366f1;
-$success-color               	: #2ecc71;
-$warning-color               	: #f1c40f;
-$danger-color                	: #e74c3c;
-$info-color                  	: #3498db;
+$success-color               	: #10b981;
+$warning-color               	: #f59e0b;
+$danger-color                	: #ef4444;
+$info-color                  	: #3b82f6;
 
 $table-border-color          	: $border-color;
 $table-border                	: 1px solid $table-border-color;
