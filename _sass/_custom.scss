@@ -10,6 +10,30 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* Hero Section */
+.hero-section {
+  padding: 4rem 1rem 2rem !important;
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto !important;
+
+  h1 {
+    font-size: 3.5rem !important;
+    font-weight: 800 !important;
+    background: linear-gradient(135deg, #4f46e5 0%, #ec4899 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 1rem !important;
+    letter-spacing: -0.04em !important;
+  }
+
+  p {
+    font-size: 1.25rem !important;
+    color: #64748b !important;
+    line-height: 1.6 !important;
+  }
+}
+
 /* Glassmorphism Header */
 #masthead {
   background: rgba(255, 255, 255, 0.7) !important;
@@ -30,8 +54,8 @@ body {
     color: $text-color !important;
     font-family: $heading-font !important;
     font-weight: 800 !important;
-    font-size: 1.5rem !important;
-    letter-spacing: -0.025em !important;
+    font-size: 1.8rem !important;
+    letter-spacing: -0.04em !important;
     text-transform: none !important;
     background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%);
     -webkit-background-clip: text;
